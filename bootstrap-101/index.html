@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap 101 Templates</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/dev/css/bootstrap.min.css" media="screen">
+    <style type="text/css">
+        .col-sm img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .jumbotron {
+            background: #222 url(https://images.unsplash.com/photo-1490380169520-0a4b88d52565?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=a800618e01707bb9265bee445b736a37) center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Vacation Rentals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- div containing the toggable navigation -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- navigation menu -->
+            <ul class="navbar-nav mr-auto">
+                <!-- active link corresponding to the current page -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trip Description</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Book Travels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Reservations</a>
+                </li>
+            </ul>
+            <!-- inline form inside the navbar -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="row">
+        <header class="col jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1 class="display-4 text-light">
+                    Best Vacation Rentals
+                </h1>
+                <p class="lead text-light">Sed placerat fringilla quam et.</p>
+                <button type="button" class="btn btn-primary btn-lg">Start Now!</button>
+            </div>
+        </header>
+    </div>
+
+    <div class="row">
+
+        <!-- first column -->
+        <div class="col-sm pb-4">
+            <!-- column content here -->
+            <a href="#">
+                <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="assets/dev/images/type1.jpeg" alt="">
+            </a>
+            <h3 class="text-center mb-2">Type 1</h3>
+            <p>
+                Lorem Ipsum...
+            </p>
+            <button class="btn btn-success">Book Now @ $599></button>
+        </div>
+
+        <!-- second column -->
+        <div class="col-sm pb-4">
+            <!-- column content here -->
+            <a href="#">
+                <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="assets/dev/images/type2.jpeg" alt="">
+            </a>
+            <h3 class="text-center mb-2">Type 1</h3>
+            <p>
+                Lorem Ipsum...
+            </p>
+            <button class="btn btn-success">Book Now @ $599></button>
+        </div>
+
+        <!-- third column -->
+        <div class="col-sm pb-4">
+            <!-- column content here -->
+            <a href="#">
+                <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="assets/dev/images/type3.jpeg" alt="">
+            </a>
+            <h3 class="text-center mb-2">Type 1</h3>
+            <p>
+                Lorem Ipsum...
+            </p>
+            <button class="btn btn-success">Book Now @ $599></button>
+        </div>
+
+    </div>
+
+    <footer class="row pt-4">
+
+        <!-- first column -->
+        <div class="col-sm">
+            <small>
+                <p>© 2018</p>
+            </small>
+        </div>
+
+        <!-- second column -->
+        <div class="col-sm">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Support 24x7</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- third column -->
+        <div class="col-sm">
+            <small>
+                <p class="text-right">Vacation Rentals</p>
+            </small>
+        </div>
+
+    </footer>
+
+    <script src="assets/dev/js/jquery.js"></script>
+    <script src="assets/dev/js/bootstrap.min.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>
